@@ -1,0 +1,32 @@
+{
+  "name": "launchpad-be",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Backend launchpad for launchpad data management",
+  "scripts": {
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "clean": "rm -r node_modules & rm pnpm-lock.yaml"
+  },
+  "devDependencies": {
+    "mysql": "^2.18.1"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.4.5",
+    "@strapi/plugin-users-permissions": "4.4.5",
+    "@strapi/strapi": "4.4.5"
+  },
+  "author": {
+    "name": "<grymore@gmail.com>"
+  },
+  "strapi": {
+    "uuid": "02616612-9c59-438b-9272-b42b42673329"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
